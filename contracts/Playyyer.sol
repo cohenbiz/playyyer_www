@@ -23,6 +23,7 @@ contract Playyyer {
         string name;
         uint256 priceEvent;
         uint256 capacity;
+        string extras;
     }
 
     mapping(address => Guest) private _guests;
@@ -69,8 +70,9 @@ contract Playyyer {
         address _id,
         string memory _name,
         uint256 _priceEvent,
-        uint256 _capacity
+        uint256 _capacity,
+        string memory _extras
     ) public {
-        eventList[_addr] = PlayyyerEvent(_id, _name, _priceEvent, _capacity);
+        eventList[_addr] = PlayyyerEvent(_id, _name, _priceEvent, _capacity, _extras);
     }
 }
