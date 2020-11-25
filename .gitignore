@@ -423,6 +423,7 @@ $RECYCLE.BIN/
 # .pnp.*
 
 # yarn v2
+.yarn-error
 .yarn/cache
 .yarn/unplugged
 .yarn/build-state.yml
