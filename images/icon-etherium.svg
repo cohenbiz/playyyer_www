@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 71 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-5263,-3910)">
+        <g id="icon-etherium" transform="matrix(0.343137,0,0,0.393013,4376.49,3788.29)">
+            <rect x="2585" y="310" width="204" height="229" style="fill:none;"/>
+            <g id="Etherium" transform="matrix(0.628984,0,0,0.549162,2606.49,310.025)">
+                <g transform="matrix(7.61981,0,0,7.61981,-36161.5,-3393)">
+                    <path d="M4762.51,445.287L4779.31,473.151L4762.51,483.077L4762.51,483.077L4745.72,473.151L4762.51,445.287L4762.51,445.287L4762.51,445.287L4762.51,445.287L4762.51,445.287Z" style="fill:rgb(5,0,58);fill-rule:nonzero;"/>
+                </g>
+                <g transform="matrix(7.61981,0,0,7.61981,-36161.5,-3393)">
+                    <path d="M4762.51,499.999L4745.72,476.335L4762.51,486.257L4762.51,486.257L4779.32,476.335L4762.51,500L4762.51,499.999Z" style="fill:rgb(5,0,58);fill-rule:nonzero;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
