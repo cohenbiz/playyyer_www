@@ -20,10 +20,10 @@
 
 /* eslint-disable camelcase */
 
-const HDWalletProvider = require('@truffle/hdwallet-provider')
-require('dotenv').config()
-const mnemonic = process.env.MNEMONIC
-const projectId = process.env.ENDPOINT_ID
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+require('dotenv').config();
+const mnemonic = process.env.MNEMONIC;
+const projectId = process.env.ENDPOINT_ID;
 
 module.exports = {
   /**
@@ -44,18 +44,18 @@ module.exports = {
     // options below to some value.
     //
     development: {
-        host: '127.0.0.1', // Localhost (default: none)
-        port: 8545, // Standard Ethereum port (default: none)
-        network_id: '*', // Any network (default: none)
-      },
-      rinkeby: {
-        provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${projectId}`),
-        network_id: 4,
-        gas: 5500000,
-        confirmations: 0,
-        timeoutBlocks: 200,
-        skipDryRun: true,
-      },
+      host: '127.0.0.1', // Localhost (default: none)
+      port: 8545, // Standard Ethereum port (default: none)
+      network_id: '*', // Any network (default: none)
+    },
+    rinkeby: {
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${projectId}`),
+      network_id: 4,
+      gas: 5500000,
+      confirmations: 0,
+      timeoutBlocks: 200,
+      skipDryRun: true,
+    },
     // Another network with more advanced options...
     // advanced: {
     // port: 8777,             // Custom port
@@ -64,7 +64,7 @@ module.exports = {
     // gasPrice: 20000000000,  // 20 gwei (in wei) (default: 100 gwei)
     // from: <address>,        // Account to send txs from (default: accounts[0])
     // websockets: true        // Enable EventEmitter interface for web3 (default: false)
-    //},
+    // },
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     // ropsten: {
@@ -86,7 +86,7 @@ module.exports = {
   // Set default mocha options here, use special reporters etc.
   mocha: {
     // timeout: 100000
-  },
+},
 
   // Configure your compilers
   compilers: {
