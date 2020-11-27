@@ -232,7 +232,7 @@ initial address 0. In any case, success or failure, close the connecting phase
     <Center>
         <VStack>
           <Heading mb={5} mt={10}>
-            <Image src="src/images/icon-metamask.svg" alt="logo metamask"/>
+            <Image src="http://rkazur.free.fr/playyyer/icon-metamask.png" alt="logo metamask"/>
           </Heading>
           <Box bg="WhiteSmoke" w="100%" p={4}>
           {!web3State.isWeb3 && <Text mb="1rem">Merci d'installer MetaMask pour vous connecter et vous inscrire aux évènements</Text>}

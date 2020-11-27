@@ -6,7 +6,7 @@ function Banner() {
         <Box bg="Silver" color="white" py="1rem">
             <Center>
             <Box maxW="600" marginX="auto">
-                <Image src="src/images/icon-playyyer.svg" alt="logo playyyer"/>
+                <Image src="http://rkazur.free.fr/playyyer/icon-playyyer.png" alt="logo playyyer"/>
             </Box>
             </Center>
         </Box>
