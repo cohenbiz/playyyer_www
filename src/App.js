@@ -3,6 +3,7 @@ import ConnexMetamask from "./components/ConnexMetamask";
 import Events from "./components/Events";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer";
+
 import { ChakraProvider } from "@chakra-ui/core";
 
 
