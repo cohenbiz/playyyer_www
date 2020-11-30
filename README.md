@@ -4,5 +4,6 @@ The Fondamental Function
 
 ## Install
 
-yarn add chakra
+yarn add react-router-dom
+yarn add bootstrap@next
 yarn add ethers
