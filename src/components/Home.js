@@ -2,8 +2,6 @@ import React, { useContext } from "react";
 
 import LoginForm from "./LoginForm";
 
-
-import Web3Info from "./Web3Info";
 import { Web3Context } from "../hooks/useWeb3";
 
 import MetamaskLogo from "../images/icon-metamask.png";
@@ -33,7 +31,6 @@ const Home = () => {
         </>
       )}
       <LoginForm />
-      <Web3Info />
       <div className="temp"></div>
     </>
   );

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 /*
 import  from "../images/";
 import  from "../images/";
@@ -10,6 +11,7 @@ const Events = () => {
     <section className="event">
       <div>
         <div className="col">
+        <Link to="/eventspages/event1">
           <div className="card">
             {/*<img src={} className="card-img-top p-2" alt="..." />*/}
             <div className="card-body">
@@ -17,6 +19,7 @@ const Events = () => {
               <p className="card-text">Description</p>
             </div>
           </div>
+          </Link>
         </div>
 
         <div className="col">

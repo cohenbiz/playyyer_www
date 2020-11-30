@@ -218,36 +218,3 @@ nav a:hover {
 .web3 .hide {
   display: none;
 }
-
-.web3 .web3info {
-  color: #f4fffd;
-  background-color: rgba(0, 0, 0, 0.4);
-  padding: 2rem;
-  margin-left: 3rem;
-  margin-bottom: 10rem;
-  font-size: 12px;
-}
-
-.web3 .web3info div {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.web3 .web3info div p {
-  text-transform: uppercase;
-}
-
-.web3 .web3info div button {
-  color: #f4fffd;
-  margin-left: auto;
-  margin-bottom: 1rem;
-  background: none;
-  border: 1px solid #f4fffd;
-  border-radius: 5px;
-  padding: 0 3px 0 3px;
-  font-size: 1rem;
-}
