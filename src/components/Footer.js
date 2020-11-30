@@ -1,16 +1,13 @@
-import React from 'react';
-import { Box, Center } from "@chakra-ui/core";
+import React from "react";
 
-function Footer() {
-    return (
-        <Box bg="Silver" color="white" py="1rem">
-            <Center>
-            <Box maxW="600" marginX="auto">
-                Made with love
-            </Box>
-            </Center>
-        </Box>
-    )
-}
+const Footer = () => {
+  // Check Bootstrap class "fixed-bottom" for footer
+  return (
+    <>
+      <div className="footer fixed-bottom">
+      </div>
+    </>
+  );
+};
 
-export default Footer
+export default Footer;

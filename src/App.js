@@ -1,21 +1,16 @@
 import React from "react";
-import ConnexMetamask from "./components/ConnexMetamask";
-import Events from "./components/Events";
-import Banner from "./components/Banner";
-import Footer from "./components/Footer";
+import { Playyyer_address, Playyyer_abi } from "./contracts/Playyyer";
+import { useContract } from "./hooks/useContract";
+import Dapp from "./Dapp";
 
-import { ChakraProvider } from "@chakra-ui/core";
-
+//export const PlayyyerContext = React.createContext(null);
 
 function App() {
   return (
-    <ChakraProvider>
-          <Banner />
-          <ConnexMetamask />
-          <Events />
-          <Footer />
-    </ChakraProvider>
-  )
+  //<PlayyyerContext.Provider value={Playyyer}>
+    <Dapp />
+  //</PlayyyerContext.Provider>
+  );
 }
 
 export default App;

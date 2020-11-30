@@ -1,6 +1,6 @@
-export const Contract_address = '0x0f786b09bA2bcBf302268E0aec165b94e0474068' 
+export const Playyyer_address = '0x0f786b09bA2bcBf302268E0aec165b94e0474068' 
 
-export const Contract_abi = [
+export const Playyyer_abi = [
 	{
 		"inputs": [],
 		"name": "createEvent",
@@ -205,4 +205,4 @@ export const Contract_abi = [
 		"stateMutability": "view",
 		"type": "function"
 	}
-]
+];

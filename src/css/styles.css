@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background-image: url("../images/bg-playyyer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 0.5rem 0 0.15rem 0;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+header .logoHeader {
+  width: 4rem;
+  color: white;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header a {
+  font-family: "Roboto", sans-serif;
+  color: #f4fffd;
+  text-decoration: none;
+  color: #f4fffd;
+}
+
+header a:hover {
+  color: #f4fffd;
+}
+
+nav a {
+  margin: 0 2rem 0 1rem;
+  text-decoration: none;
+  color: #f4fffd;
+  font-size: 1.2rem;
+}
+
+nav a:hover {
+  color: #9ba2ff;
+}
+
+.logoHome {
+  width: 8rem;
+  color: white;
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+}
+
+.connectWeb3P {
+  margin: 3rem 0 0 3rem;
+  color: #f4fffd;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  padding: 1rem;
+}
+
+.connectWeb3P .connectWeb3Btn {
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0);
+  border: none;
+  color: #bbbbbb;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.connectWeb3P .connectWeb3Btn:hover {
+  color: white;
+}
+
+.web3disconnected {
+  color: #ed0e0e;
+  font-weight: bold;
+  margin: 3rem 0 0 3rem;
+  display: inline-block;
+}
+
+.web3connected {
+  color: #04a717;
+  font-weight: bold;
+  margin: 3rem 0 0 3rem;
+  display: inline-block;
+}
+
+.loginForm {
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  color: #f4fffd;
+  font-family: "Roboto", sans-serif;
+}
+
+.loginForm .head {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.loginForm .head .login,
+.loginForm .head .register {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: #9ba2ff;
+}
+
+.loginForm .head .selected {
+  color: White;
+  font-size: 1.5rem;
+  font-style: bold;
+}
+
+.loginForm .form {
+  color: #2d3047;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+
+.loginForm .form legend {
+  color: #f4fffd;
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.loginForm .form input {
+  height: 2rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+}
+
+.loginForm .form button {
+  margin-top: 0.5rem;
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0);
+  border: none;
+  color: #bbbbbb;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.loginForm .form button:hover {
+  background-color: #9ba2ff;
+}
+
+.temp {
+  margin-top: 5rem;
+}
+
+.footer {
+  width: 100%;
+  padding: 2rem;
+  background: black;
+  bottom: 0;
+  height: 50px;
+}
+
+.event {
+  margin-bottom: 10rem;
+}
+
+.event .card {
+  max-width: 80%;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.event img {
+  height: auto;
+}
+
+.web3 .showInfoBtn {
+  margin: 0.5rem 0 2rem 3rem;
+  padding: 0.5rem;
+  background: #2d3047;
+  border: none;
+  color: #f4fffd;
+  font-size: 12px;
+  text-transform: uppercase;
+  border-radius: 3px;
+}
+
+.web3 .showInfoBtn:hover {
+  background-color: #6aff0d;
+}
+
+.web3 .hide {
+  display: none;
+}
+
+.web3 .web3info {
+  color: #f4fffd;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 10rem;
+  font-size: 12px;
+}
+
+.web3 .web3info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.web3 .web3info div p {
+  text-transform: uppercase;
+}
+
+.web3 .web3info div button {
+  color: #f4fffd;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  background: none;
+  border: 1px solid #f4fffd;
+  border-radius: 5px;
+  padding: 0 3px 0 3px;
+  font-size: 1rem;
+}
